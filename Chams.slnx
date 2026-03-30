@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Chams/Chams.vcxproj" Id="89e49666-7122-40ac-bae4-05f05d5fb7ea" />
+</Solution>

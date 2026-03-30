@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{6d9e0af4-8848-4cb9-b8fb-4dcd42eb78d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{7a561110-66e0-410a-b333-e7e221d8b7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{81c7e2b1-1256-4c45-813c-7acbc5ee79c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook">
+      <UniqueIdentifier>{5f91eef3-8c70-4d3b-9a8c-1e24bc3b23e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\framework.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\pch.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\mainthread.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\hooks.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\chams.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\dllmain.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\pch.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\mainthread.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\hooks.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\chams.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\buffer.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hook.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\trampoline.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hde\hde32.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hde\hde64.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
