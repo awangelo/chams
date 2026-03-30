@@ -6,6 +6,8 @@ Chams interno para Minecraft Java (< 1.14.4), feito para aprender um pouco sobre
 - `OpenGL/`: Inicialização e configuração dos hooks utilizando **MinHook**.
 - `Features/`: Funções que serão aplicadas nos hooks.
 
+<img width="1375" height="899" alt="image" src="https://github.com/user-attachments/assets/34025461-8acc-42bb-945a-2fa041624e41" />
+
 ## Como Usar
 1. Baixe a dll na aba "Releases".
 2. Utilize qualquer injetor para injetar a dll no processo do minecraft (`javaw`).
